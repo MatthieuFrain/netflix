@@ -87,7 +87,8 @@ video {
 .main-container{
   align-items: center;
   display: inline-block;
-  margin-top: 310px;
+  margin-top: 150px;
+  padding-bottom: 200px;
 }
 
 .main-container h1{
