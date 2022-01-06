@@ -14,7 +14,7 @@
   </div>
 </header>
 
-       <video controls="true">
+      <video controls="true">
     <source src="./medias/SQUID-GAME.mp4" type="video/mp4" />
 </video>
 <affichageApi title="TOP 100 - Films les plus populaires" type="MostPopularMovies"/>
@@ -60,7 +60,7 @@ body{
   text-decoration: none;
 }
 
-:hover .nav-bar a{
-  font: 700;
+.nav-bar a:hover{
+  font-weight:700;
 }
 </style>
