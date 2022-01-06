@@ -17,15 +17,16 @@
        <video controls="true">
     <source src="./medias/SQUID-GAME.mp4" type="video/mp4" />
 </video>
+<affichageApi title="TOP 100 - Films les plus populaires" type="MostPopularMovies"/>
 </template>
 
 <script>
-
+import affichageApi from './components/affichageApi.vue'
 
 export default {
   name: 'App',
   components: {
-
+    affichageApi
   }
 }
 </script>
@@ -57,5 +58,9 @@ body{
 
 .nav-bar,li{
   text-decoration: none;
+}
+
+:hover .nav-bar a{
+  font: 700;
 }
 </style>
