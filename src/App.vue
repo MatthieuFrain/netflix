@@ -53,11 +53,10 @@ body{
   color: white;
   text-decoration: none;
   padding: 30px;
-  list-style: none;
 }
 
 .nav-bar li{
-  text-decoration: none;
+  list-style: none;
 }
 
 .nav-bar a:hover{
