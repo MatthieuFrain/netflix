@@ -66,7 +66,7 @@ body{
 
 video {
 /*  making the video fullscreen  */
-  position: fixed;
+  position: absolute;
   right: 0; 
   bottom: 0;
   min-width: 100%; 
