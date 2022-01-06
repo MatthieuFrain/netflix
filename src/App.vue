@@ -14,6 +14,9 @@
   </div>
 </header>
 
+       <video controls="true">
+    <source src="./medias/SQUID-GAME.mp4" type="video/mp4" />
+</video>
 </template>
 
 <script>
