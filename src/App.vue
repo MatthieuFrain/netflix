@@ -14,7 +14,7 @@
   </div>
 </header>
 
-      <video autoplay muted>
+      <video autoplay muted loop>
     <source src="./medias/squid.mp4" type="video/mp4" />
 </video>
 <div class="main-container">
