@@ -33,17 +33,25 @@ body{
 }
 
 .container{
-  display: flex;
-  align-content: center;
-  margin-top: 20px;
+    display: flex;
+    margin-top: 20px;
+    height: 41px;
+    margin: 30px 60px;
 }
-.logo{
-  width: 120px;
-  margin-left: 100px;
 
-}
 .nav-bar,ul{
   display: flex;
+  text-decoration: none;
+}
 
+.nav-bar a{
+  color: white;
+  text-decoration: none;
+  padding: 30px;
+  list-style: none;
+}
+
+.nav-bar,li{
+  text-decoration: none;
 }
 </style>
