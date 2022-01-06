@@ -24,6 +24,8 @@
     <button class="button-right"><a href="#">INFOS</a></button>
 </div>
 <affichageApi title="TOP 100 - Films les plus populaires" type="mostpopular.json"/>
+<br>
+<affichageApi title="Films à venir" type="comingsoon.json"/>
 
 </template>
 
@@ -88,7 +90,6 @@ video {
   align-items: center;
   display: inline-block;
   margin-top: 150px;
-  padding-bottom: 200px;
 }
 
 .main-container h1{
