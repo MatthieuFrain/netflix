@@ -1,11 +1,17 @@
 <template>
-<h3 class="titreCategorie">{{title}}</h3>
-<div class="contenuCategorie" v-for="result in post" :key="result">
-  <div class="categorie">
-    <b>{{result.rank}}</b>
-    <img :src="result.image">
-    <b>{{result.title}}</b>
-    <b>{{result.imDbRating}} / 10</b>
+<div class="globalCategorie">
+  <h3 class="titreCategorie">{{title}}</h3>
+  <div class="contenuCategorie" v-for="result in post" :key="result">
+    <div class="categorie">
+      <b class="rank">{{result.rank}}</b>
+      <img class="imgAffiche" :src="result.image">
+      <br>
+      <div>
+        <b>{{result.title}}</b>
+        <br>
+        <b>{{result.imDbRating}} / 10</b>
+      </div>
+    </div>
   </div>
 </div>
 </template>
@@ -33,5 +39,23 @@ export default {
 </script>
 
 <style lang="css">
+  .globalCategorie{
+    color: white;
+  }
 
+  .imgAffiche{
+    width: 150px;
+  }
+
+  .rank{
+    position: absolute;
+    background-color: black;
+    font-size: 1.5em;
+    padding: 10px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .categorie{
+    position: relative;
+  }
 </style>

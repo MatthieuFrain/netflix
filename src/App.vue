@@ -40,7 +40,7 @@ body{
     margin: 30px 60px;
 }
 
-.nav-bar,ul{
+.nav-bar ul{
   display: flex;
   text-decoration: none;
 }
@@ -52,7 +52,7 @@ body{
   list-style: none;
 }
 
-.nav-bar,li{
+.nav-bar li{
   text-decoration: none;
 }
 
