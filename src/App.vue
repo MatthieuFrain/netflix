@@ -94,7 +94,7 @@ video {
 }
 
 .main-container button{
-  background-color: rgba(51,51,51,.8);
+  background-color: rgba(51,51,51,.6);
   border: none;
   color: #ffffff;
   padding: 12px 40px;
@@ -106,6 +106,10 @@ video {
   -moz-border-radius:5px;
   -ms-border-radius:5px;
   -o-border-radius:5px;
+}
+
+.main-container button:hover{
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .main-container a{
