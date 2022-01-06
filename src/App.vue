@@ -54,4 +54,8 @@ body{
 .nav-bar,li{
   text-decoration: none;
 }
+
+:hover .nav-bar a{
+  font: 700;
+}
 </style>
