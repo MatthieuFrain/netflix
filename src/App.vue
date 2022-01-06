@@ -13,10 +13,7 @@
   </div>
   </div>
 </header>
-  <video>
-    <source src=" SQUID GAME Bande Annonce VF (Netflix 2021).mp4 " type= "video/mp4">
-    <source src="https://www.youtube.com/watch?v=_434vl32oJY">
-    </video>
+ 
 </template>
 
 <script>
