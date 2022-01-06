@@ -1,7 +1,7 @@
 <template>
 <header>
-  <div class="logo">
-    <img src="./medias/netflux.svg" alt="logo de netflux">
+  <div>
+    <img class="logo" src="./medias/Netflux-logo.png" alt="logo de netflux">
   </div>
 </header>
 </template>
@@ -18,7 +18,12 @@ export default {
 </script>
 
 <style lang="css">
-#app {
 
+body{
+  background-color: black;
+}
+.logo{
+  width: 120px;
+  margin-left: 100px;
 }
 </style>
