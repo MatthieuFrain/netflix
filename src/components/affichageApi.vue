@@ -1,7 +1,7 @@
 <template>
 <div class="globalCategorie">
   <h3 class="titreCategorie">{{title}}</h3>
-  <div class="contenuCategorie" v-for="result in post" :key="result">
+  <div class="contenuCategorie" v-for="result in post" :key="result.id">
     <div class="categorie">
       <b class="rank">{{result.rank}}</b>
       <img class="imgAffiche" :src="result.image">
@@ -30,7 +30,7 @@ export default {
   ],
   mounted(){
     const axios = require('axios').default;
-    let url = "https://imdb-api.com/en/API/"+this.type+"/k_orp1gt36";
+    let url = "https://edu.maxence.space/imdb/"+this.type;
     axios
       .get(url)
       .then(response => (this.post = response.data.items))
