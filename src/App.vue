@@ -84,6 +84,12 @@ video {
   z-index: -100;
 }
 
+.main-container{
+  align-items: center;
+  display: inline-block;
+  margin-top: 310px;
+}
+
 .main-container h1{
   color: #ffffff;
   font-size: 50px;
@@ -92,6 +98,8 @@ video {
 .main-container p{
   color: #ffffff;
   width: 40%;
+  font-size: 18px;
+  margin-bottom: 40px;
 }
 
 .main-container button{
