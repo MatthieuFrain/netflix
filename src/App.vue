@@ -14,7 +14,7 @@
   </div>
 </header>
 
-      <video controls="true">
+      <video autoplay>
     <source src="./medias/SQUID-GAME.mp4" type="video/mp4" />
 </video>
 <affichageApi title="TOP 100 - Films les plus populaires" type="mostpopular.json"/>
