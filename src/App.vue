@@ -3,27 +3,7 @@
   <div>
     <img class="logo" src="./medias/Netflux-logo.png" alt="logo de netflux">
   </div>
-    <div class="nav-bar">
-  <a href="">
-    Acceuil
-  </a>
-
- <a href="">
-    Série
-  </a>
-
- <a href="">
-    Film
-  </a>
-  
-   <a href="">
-    Nouveautés les plus regardées 
-  </a>
-
- <a href="">
-    Ma liste 
-  </a>
-  </div>
+ 
 </header>
 </template>
 
