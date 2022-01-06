@@ -15,7 +15,7 @@
 </header>
 
       <video autoplay muted>
-    <source src="./medias/SQUID-GAME.mp4" type="video/mp4" />
+    <source src="./medias/squid.mp4" type="video/mp4" />
 </video>
 <div class="main-container">
     <h1>SQUID GAME</h1>
