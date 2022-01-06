@@ -42,7 +42,6 @@ export default {
 
 body{
   background-color: black;
-  overflow: hidden;
 }
 
 .container{
