@@ -59,7 +59,7 @@ body{
 .nav-bar a{
   color: white;
   text-decoration: none;
-  padding: 30px;
+  margin: 0 30px;
 }
 
 .nav-bar li{
@@ -69,6 +69,7 @@ body{
 .nav-bar a:hover{
   font-weight:700;
   border-bottom: 0.6px solid #ffffff;
+  
 }
 
 video {
