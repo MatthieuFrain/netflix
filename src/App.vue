@@ -14,10 +14,17 @@
   </div>
 </header>
 
-      <video controls="true">
-    <source src="./medias/SQUID-GAME.mp4" type="video/mp4" />
+      <video autoplay muted loop>
+    <source src="./medias/squid.mp4" type="video/mp4" />
 </video>
+<div class="main-container">
+    <h1>SQUID GAME</h1>
+    <p>456 personnes, qui ont toutes des difficultés financières dans la vie, sont invitées à prendre part à une mystérieuse compétition de survie. Participant à une série de jeux traditionnels pour enfants, mais avec des issues mortelles, elles risquent leur vie pour gagner le prix de 45,6 milliards de wons (soit environ 38 millions de dollars américains ou 32 millions d'euros).</p>
+    <button><a href="#">PLAY</a></button>
+    <button class="button-right"><a href="#">INFOS</a></button>
+</div>
 <affichageApi title="TOP 100 - Films les plus populaires" type="mostpopular.json"/>
+
 </template>
 
 <script>
@@ -53,16 +60,17 @@ body{
 .nav-bar a{
   color: white;
   text-decoration: none;
-  padding: 30px;
-  list-style: none;
+  margin: 0 30px;
 }
 
 .nav-bar li{
-  text-decoration: none;
+  list-style: none;
 }
 
 .nav-bar a:hover{
   font-weight:700;
+  border-bottom: 0.6px solid #ffffff;
+  
 }
 
 video {
@@ -75,6 +83,53 @@ video {
   width: auto; 
   height: auto;
   z-index: -100;
+}
+
+.main-container{
+  align-items: center;
+  display: inline-block;
+  margin-top: 150px;
+  padding-bottom: 200px;
+}
+
+.main-container h1{
+  color: #ffffff;
+  font-size: 50px;
+}
+
+.main-container p{
+  color: #ffffff;
+  width: 40%;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.main-container button{
+  background-color: rgba(51,51,51,.6);
+  border: none;
+  color: #ffffff;
+  padding: 12px 40px;
+  font-size: 13px;
+  font-weight: 600;
+  display: inline-block;
+  border-radius: 5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -o-border-radius:5px;
+}
+
+.main-container button:hover{
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.main-container a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.button-right{
+  margin-left: 20px;
 }
 
 
