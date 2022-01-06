@@ -13,7 +13,7 @@
   </div>
   </div>
 </header>
- <iframe width="500" height="320" src="https://www.youtube.com/watch?v=_434vl32oJY">
+
 </template>
 
 <script>
