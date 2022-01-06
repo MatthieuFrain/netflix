@@ -16,7 +16,7 @@
 
        <video controls="true">
     <source src="./medias/SQUID-GAME.mp4" type="video/mp4" />
-</video width="100">
+</video>
 <affichageApi title="TOP 100 - Films les plus populaires" type="MostPopularMovies"/>
 </template>
 
